@@ -1,0 +1,37 @@
+/*
+Theme Name: Katepress
+Theme URI: #
+Version: 1.0
+Author: Andrei Vedovato & Sitefy
+Author URI: http://www.andreivedovato.com
+Description: A simple Wordpress starter theme with my cat name built with stylus, jeet grids and rupture.
+License: MIT
+*/
+
+@import 'jeet'
+// edit()
+
+*
+  margin 0
+  padding 0
+  transition 0.3s ease
+  box-sizing border-box
+
+
+// Responsive video/iframe
+// --------------------
+.video-container
+  position relative
+  padding-bottom 56.25%
+  padding-top 30px
+  height 0
+  overflow hidden
+
+.video-container iframe,
+.video-container object,
+.video-container embed
+  position absolute
+  top 0
+  left 0
+  width 100%
+  height 100%
